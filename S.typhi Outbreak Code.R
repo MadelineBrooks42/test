@@ -3,7 +3,7 @@
 
 setwd("~/Spring 2025 Classes/CPH 612")
 
-library(readxl)
+library(readr)
 Line_list_S_typhi_outbreak_cases_2025 <- read_excel("Line list_S.typhi_outbreak_cases_2025.xlsx")
 View(Line_list_S_typhi_outbreak_cases_2025)
 data1 <- Line_list_S_typhi_outbreak_cases_2025
