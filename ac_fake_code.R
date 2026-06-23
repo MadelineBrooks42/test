@@ -153,7 +153,7 @@ results <- BSA_use %>%
 
 results <- results %>%
   mutate(
-    complete_obs = ifelse(is.na(complete_obs), as.integer(cycle_miss == 0), complete_obs),
+    myvar1 = ifelse(is.na(complete_obs), as.integer(cycle_miss == 0), complete_obs),
     anymiss_obs = ifelse(is.na(anymiss_obs), as.integer(cycle_miss > 0), anymiss_obs)
   )
 
