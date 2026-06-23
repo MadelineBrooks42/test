@@ -86,10 +86,10 @@ map <- tm_shape(balt) +
     fill.scale = tm_scale_intervals(
       style = "jenks",
       n = 5,
-      values = "brewer.blues"
+      values = "brewer.greens"
     ),
     fill.legend = tm_legend(
-      title = "Median household income"
+      title = "Median HH income"
     )
   ) +
   tm_shape(st_union(balt)) +
