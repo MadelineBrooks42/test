@@ -86,7 +86,7 @@ map <- tm_shape(balt) +
     fill.scale = tm_scale_intervals(
       style = "jenks",
       n = 5,
-      values = "brewer.greens"
+      values = "brewer.pinks"
     ),
     fill.legend = tm_legend(
       title = "Median HH income"
